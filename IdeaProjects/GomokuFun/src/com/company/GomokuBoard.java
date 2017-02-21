@@ -13,6 +13,8 @@ public class GomokuBoard extends Grids {
 
     public void draw(Graphics g, int[][] whiteInfo, int[][] blackInfo, int axisX, int axisY) {
         super.draw(g, axisX, axisY);
+
+        //draw colors. 
         for(int i = 0; i < numberOfGridsX; i++) {
             for(int j = 0; j < numberOfGridsX; j++) {
                 g.setColor(Color.GRAY);
