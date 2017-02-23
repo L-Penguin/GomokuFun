@@ -1,4 +1,4 @@
-package com.company;
+package com.company.elements;
 
 import java.awt.*;
 
@@ -15,6 +15,7 @@ public class GomokuBoard extends Grids {
         super.draw(g, axisX, axisY);
 
         //draw colors.
+        //color 1: white, 2:black
         for(int i = 0; i < numberOfGridsX; i++) {
             for(int j = 0; j < numberOfGridsX; j++) {
                 switch (boardState[i][j]) {
